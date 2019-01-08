@@ -3,7 +3,8 @@ public void setup()
 {     
 	
 	for(int big = 0; big<= e.length(); big++){
-		String chunk = e.substring(big, big+10);
+		if(big+10<e.length())
+			String chunk = e.substring(big, big+10);
 		double dNum = Double.parseDouble(chunk);
 	}
 

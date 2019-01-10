@@ -32,14 +32,13 @@ public void setup()
 			dNum = Double.parseDouble(chunk);
 			isPrime(dNum);
 		}
-		
-	}
-	if (isPrime(dNum) == true)
+	if (isPrime(dNum) == true){
 		System.out.println(dNum);
-
-	System.out.println("hmm");
-	
-}  
+		break;
+	}
+		
+}
+}
 public void draw()  
 {   
 	//not needed for this assignment
